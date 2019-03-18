@@ -16,35 +16,35 @@ class App extends Component {
         id: 1,
         color: 'white',
         landType: 'Plains',
-        pips: 1,
+        pips: 0,
         sourcesNeeded: 0
       },
       {
         id: 2,
         color: 'blue',
         landType: 'Islands',
-        pips: 1,
+        pips: 0,
         sourcesNeeded: 0
       },
       {
         id: 3,
         color: 'black',
         landType: 'Swamps',
-        pips: 1,
+        pips: 0,
         sourcesNeeded: 0
       },
       {
         id: 4,
         color: 'red',
         landType: 'Mountains',
-        pips: 1,
+        pips: 0,
         sourcesNeeded: 0
       },
       {
         id: 5,
         color: 'green',
         landType: 'Forests',
-        pips: 1,
+        pips: 0,
         sourcesNeeded: 0
       }
     ]
