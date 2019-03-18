@@ -17,6 +17,7 @@ body {
   color: var(--light-color);
   line-height: 1.5;
   font-family: 'Libre Franklin', sans-serif;
+  height: 100%;
 }
 
 input {
@@ -119,12 +120,13 @@ a:hover {
 footer {
   bottom: 0;
   left: 0;
-  position: fixed;
+  /* position: fixed; */
   background: var(--secondary-color);
   width: 100%;
   text-align: center;
   font-size: 1rem;
   padding: 0.2rem 1rem;
+  margin-top: 1rem;
 }
 
 footer ul {
@@ -237,7 +239,6 @@ footer ul {
 @media (min-width: 800px) {
   body {
     font-size: 2.5rem;
-    padding-bottom: 5rem;
   }
 
   .bottom-line {
